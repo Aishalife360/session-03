@@ -9,6 +9,15 @@
 
 function countVowels(text) {
   // your code here
+  
+  let count = 0;
+  for (const letter of text) {
+    if (letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u') {
+      count++;
+    }
+  }
+  return count;
+
 }
 
 // ----- Checks (do not edit) -----
