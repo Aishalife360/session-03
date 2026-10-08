@@ -7,6 +7,9 @@
 
 function toOMR(baisa) {
   // your code here
+  
+  return baisa / 1000;
+
 }
 
 // ----- Checks (do not edit) -----
