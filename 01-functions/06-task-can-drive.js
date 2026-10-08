@@ -8,6 +8,9 @@
 
 function canDrive(age, hasLicense) {
   // your code here
+
+  return age >= 18 && hasLicense;
+
 }
 
 // ----- Checks (do not edit) -----
