@@ -8,6 +8,11 @@
 
 function multiplicationRow(n) {
   // your code here
+  let result = [];
+  for (let i = 1; i <= 10; i++) {
+    result.push(n * i);
+  }
+  return result;
 }
 
 // ----- Checks (do not edit) -----
